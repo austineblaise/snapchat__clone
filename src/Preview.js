@@ -8,7 +8,9 @@ function Preview() {
 
 	return (
 		<div className="preview">
-            <h2>This is your preview</h2>
+            <h2>This is a beautiful preview page
+                
+            </h2>
 			<img src={cameraImage} alt="" />
 		</div>
 	);
