@@ -8,13 +8,13 @@ const firebaseConfig = {
 	storageBucket: "snapchat-clone-df02e.appspot.com",
 	messagingSenderId: "948515417850",
 	appId: "1:948515417850:web:4af6a516c094520516e343",
-	measurementId: "G-FX6N9T6EZJ",
-};
+	measurementId: "G-FX6N9T6EZJ"
+  };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
 const storage = firebase.storage();
-const provider = new firebase.auth.GithubAuthProvider();
+const provider = new firebase.auth.GoogleAuthProvider()
 
 export { db, auth, storage, provider };
